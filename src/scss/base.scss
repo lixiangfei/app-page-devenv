@@ -1,0 +1,49 @@
+//  基础
+@import './reset.scss';
+@import './fn.scss';
+$baseBg: #ffcfd2;
+$baseFontColor:#333;
+html {
+    -webkit-box-orient: vertical;
+    -webkit-box-align: center;
+    -webkit-tap-highlight-color: rgba(255, 0, 0, 0);
+}
+
+body {
+    margin: 0;
+    font-family: "Microsoft YaHei", Arial, sans-serif;
+    position: relative;
+    background: #3a142b;
+    color: #fff;
+    font-size: 0.24rem;
+    cursor: pointer;
+}
+
+.app {
+    margin: 0 auto;
+    height: 100%;
+}
+
+.common-container {
+    background: #38a74f;
+    height: 100%;
+    padding-top: p2r(35);
+    padding-bottom: p2r(40);
+    .common-wrap {
+        width: p2r(694);
+        margin: 0 auto;
+        border: p2r(8) solid #1e552a;
+        border-radius: p2r(22);
+        font-size: p2r(24);
+        line-height: 1.5;
+        .common-content {
+            position: relative;
+            width: 100%;
+            height: p2r(1100);
+            border: p2r(7) solid #ffffff;
+            border-radius: p2r(10);
+            padding: 0 p2r(14);
+            background: #207e35;
+        }
+    }
+}

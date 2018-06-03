@@ -1,0 +1,6 @@
+//  函数
+
+// px -> rem
+@function p2r($px) {
+    @return $px/100+rem;
+}

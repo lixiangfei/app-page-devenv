@@ -1,0 +1,22 @@
+//  mixin
+
+//  清除浮动
+@mixin clearfix() {
+  &::after {
+    display: block;
+    content: "";
+    clear: both;
+  }
+}
+
+//  左浮动
+@mixin fl() {
+  display: inline-block;
+  float: left;
+}
+
+//  右浮动
+@mixin fr() {
+  display: inline-block;
+  float: left;
+}
